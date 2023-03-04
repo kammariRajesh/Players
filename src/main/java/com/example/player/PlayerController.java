@@ -3,6 +3,7 @@ package com.example.player;
 import org.springframework.web.bind.annotation.*;
  import java.util.ArrayList;
  import com.example.player.PlayerService;
+ import com.example.player.Player;
 @RestController
 public class PlayerController{
     PlayerService ps = new PlayerService();
